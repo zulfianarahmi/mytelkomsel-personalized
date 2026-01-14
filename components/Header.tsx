@@ -41,7 +41,7 @@ export default function Header() {
             aria-label="Toggle menu"
             aria-expanded={mobileMenuOpen}
           >
-            <svg className={styles.menuIcon} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5">
+            <svg className={styles.icon} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5">
               {mobileMenuOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
               ) : (
